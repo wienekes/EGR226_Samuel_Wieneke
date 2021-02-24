@@ -32,9 +32,10 @@ void main(void)
     P2->OUT &= ~BIT0;
     P2->OUT &= ~BIT1;
     P2->OUT &= ~BIT2;
-    P2->OUT |= BIT0;
+    //P2->OUT |= BIT0;
 
     while (1) {
+
 
 
 

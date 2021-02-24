@@ -28,6 +28,10 @@ void main(void)
     P2->DIR |= 4; // P2.2 set as output pin */
 
     int i=0;
+
+    P2->OUT &= ~1;
+    P2->OUT &= ~2;
+    P2->OUT &= ~4;
     while (1) {
 
 
@@ -56,15 +60,15 @@ void main(void)
                             P2->OUT &= ~1;
                             P2->OUT &= ~2;
                             P2->OUT ^= 4;
-                            i++;
+                            i=0;
                         }
-            else if(i==3)
+           /* else if(i==3)
                         {
                             P2->OUT &= ~1;
                             P2->OUT &= ~2;
                             P2->OUT &= ~4;
                             i=0;
-                        }
+                        }*/
         }
 
 
