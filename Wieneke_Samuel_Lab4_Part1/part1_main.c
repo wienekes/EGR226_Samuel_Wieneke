@@ -1,4 +1,5 @@
 #include "msp.h"
+#include <stdio.h>
 
 int DebounceSwitch1(void);
 //int DebounceDelay (void);
@@ -32,6 +33,10 @@ void main(void)
     P2->OUT &= ~1;
     P2->OUT &= ~2;
     P2->OUT &= ~4;
+
+    fflush(stdin);
+    printf("Hello\n");
+
     while (1) {
 
 
@@ -39,6 +44,8 @@ void main(void)
 
         while(DebounceSwitch1())
         {
+            printf("Print\n");
+
             if(i==0)
                         {
                             P2->OUT &= ~2;
