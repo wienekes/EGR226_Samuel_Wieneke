@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **/Debug
 **/Release
 **/Debug/*
@@ -11,3 +12,24 @@
 **/targetConfigs/*
 /.metadata/
 .jxbrowser-data/6520_0.lock
+=======
+**/Debug
+**/Release
+**/Debug/*
+**/Release/*
+**/.xdchelp
+**/.config
+**/.config/*
+**/.launches
+**/.launches/*
+**/targetConfigs
+**/targetConfigs/*
+dvt
+dvt/*
+.jxbrowser-data
+.jxbrowser-data/*
+.metadata
+.metadata/*
+RemoteSystemsTempFiles
+RemoteSystemsTempFiles/*
+>>>>>>> branch 'main' of https://github.com/wienekes/EGR226_Samuel_Wieneke.git
